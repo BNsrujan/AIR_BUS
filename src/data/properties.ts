@@ -3,86 +3,86 @@ import { Property } from '@/types/property';
 export const properties: Property[] = [
   {
     id: '1',
-    lat: 40.7589,
-    lng: -73.9851,
-    price: 850000,
+    lat: 19.0760, // Mumbai
+    lng: 72.8777,
+    price: 8500000,
     photo: '/image1.jpeg',
     type: 'apartment',
-    title: 'Modern Manhattan Apartment',
-    address: '123 Broadway, New York, NY 10001',
+    title: 'Modern Mumbai Apartment',
+    address: '123 Marine Drive, Mumbai, Maharashtra 400020',
     bedrooms: 2,
     bathrooms: 2,
     sqft: 1200,
-    description: 'Beautiful modern apartment in the heart of Manhattan with stunning city views.'
+    description: 'Beautiful modern apartment in the heart of Mumbai with a sea-facing balcony.'
   },
   {
     id: '2',
-    lat: 40.7505,
-    lng: -73.9934,
-    price: 1200000,
+    lat: 12.9716, // Bengaluru
+    lng: 77.5946,
+    price: 12000000,
     photo: '/image2.jpeg',
     type: 'house',
-    title: 'Chelsea Townhouse',
-    address: '456 W 23rd St, New York, NY 10011',
+    title: 'Indiranagar Townhouse',
+    address: '456 12th Main Rd, Indiranagar, Bengaluru, Karnataka 560008',
     bedrooms: 3,
     bathrooms: 3,
     sqft: 2000,
-    description: 'Charming townhouse in Chelsea with private garden and modern amenities.'
+    description: 'Elegant townhouse in Indiranagar with a private garden and smart home setup.'
   },
   {
     id: '3',
-    lat: 40.7614,
-    lng: -73.9776,
-    price: 650000,
+    lat: 28.6139, // Delhi
+    lng: 77.2090,
+    price: 6500000,
     photo: '/image3.jpeg',
-    type: 'house',
-    title: 'Upper East Side Condo',
-    address: '789 Park Ave, New York, NY 10021',
+    type: 'apartment',
+    title: 'South Delhi Condo',
+    address: '789 Greater Kailash, New Delhi, Delhi 110048',
     bedrooms: 1,
     bathrooms: 1,
     sqft: 800,
-    description: 'Elegant condo on Park Avenue with doorman and gym facilities.'
+    description: 'Stylish condo in South Delhi with top-notch security and modern amenities.'
   },
   {
     id: '4',
-    lat: 40.7282,
-    lng: -74.0776,
-    price: 950000,
+    lat: 13.0827, // Chennai
+    lng: 80.2707,
+    price: 9500000,
     photo: '/image4.jpeg',
     type: 'apartment',
-    title: 'Tribeca Loft',
-    address: '321 Greenwich St, New York, NY 10013',
+    title: 'Chennai Beachside Loft',
+    address: '321 Besant Nagar, Chennai, Tamil Nadu 600090',
     bedrooms: 2,
     bathrooms: 2,
     sqft: 1500,
-    description: 'Spacious loft in trendy Tribeca with exposed brick and high ceilings.'
+    description: 'Spacious loft near Elliots Beach with ocean views and high ceilings.'
   },
   {
     id: '5',
-    lat: 40.7505,
-    lng: -73.9731,
-    price: 750000,
+    lat: 22.5726, // Kolkata
+    lng: 88.3639,
+    price: 7500000,
     photo: '/image5.jpeg',
     type: 'apartment',
-    title: 'Midtown East Studio',
-    address: '654 Lexington Ave, New York, NY 10022',
+    title: 'Kolkata Central Studio',
+    address: '654 Park Street, Kolkata, West Bengal 700016',
     bedrooms: 1,
     bathrooms: 1,
     sqft: 600,
-    description: 'Cozy studio apartment near Grand Central with modern finishes.'
+    description: 'Cozy studio apartment in central Kolkata with easy metro access and modern finishes.'
   },
   {
     id: '6',
-    lat: 40.7831,
-    lng: -73.9712,
-    price: 1100000,
+    lat: 18.5204, // Pune
+    lng: 73.8567,
+    price: 11000000,
     photo: '/image6.jpeg',
-    type: 'apartment',
-    title: 'Upper West Side Townhouse',
-    address: '987 Columbus Ave, New York, NY 10025',
+    type: 'house',
+    title: 'Pune Bungalow near Koregaon Park',
+    address: '987 Lane 6, Koregaon Park, Pune, Maharashtra 411001',
     bedrooms: 4,
     bathrooms: 3,
     sqft: 2500,
-    description: 'Historic townhouse near Central Park with original details and modern updates.'
+    description: 'Luxurious bungalow in Koregaon Park with landscaped garden and open terrace.'
   }
 ];
