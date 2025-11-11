@@ -1,7 +1,7 @@
 'use client';
 
 import { Property, MapBounds } from '@/types/property';
-import { PropertyCard } from '../../../property-map/src/components/PropertyCard';
+import { PropertyCard } from '@/components/PropertyCard';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Badge } from '@/components/ui/badge';
