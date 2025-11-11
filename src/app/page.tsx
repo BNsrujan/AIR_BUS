@@ -56,7 +56,7 @@ export default function Home() {
   return (
     <div className="h-screen flex flex-col">
       <header className="bg-white border-b border-gray-200 p-4">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-9xl mx-auto">
           <h1 className="text-2xl font-bold text-gray-900">Property Map</h1>
           <p className="text-gray-600">Find your perfect property</p>
         </div>

@@ -23,7 +23,7 @@ export function PropertyList({ properties, mapBounds, onPropertyClick }: Propert
     : properties;
 
   return (
-    <Card className="h-full">
+    <Card className="h-full ">
       <CardHeader className="pb-4">
         <div className="flex items-center justify-between">
           <CardTitle className="text-lg">Properties</CardTitle>

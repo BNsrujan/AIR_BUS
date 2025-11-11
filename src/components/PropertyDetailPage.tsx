@@ -11,6 +11,7 @@ import Link from 'next/link';
 import { useViewedProperties } from '@/hooks/useViewedProperties';
 import { useEffect } from 'react';
 import dynamic from 'next/dynamic';
+import { useRouter } from 'next/navigation';
 
 const PropertyMap = dynamic(() => import('@/components/PropertyMap').then(mod => ({ default: mod.PropertyMap })), {
   ssr: false,
@@ -23,6 +24,8 @@ interface PropertyDetailPageProps {
 
 export function PropertyDetailPage({ property }: PropertyDetailPageProps) {
   const { addViewedProperty } = useViewedProperties();
+    const router = useRouter();
+
 
   useEffect(() => {
     addViewedProperty(property.id);
@@ -49,7 +52,7 @@ export function PropertyDetailPage({ property }: PropertyDetailPageProps) {
         console.log('Error sharing:', error);
       }
     } else {
-      // Fallback to copying URL
+      
       navigator.clipboard.writeText(window.location.href);
       alert('Link copied to clipboard!');
     }
@@ -62,7 +65,7 @@ export function PropertyDetailPage({ property }: PropertyDetailPageProps) {
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <Link href="/">
-              <Button variant="ghost" size="sm">
+              <Button variant="ghost" size="sm" onClick={()=> router.push('/')}>
                 <ArrowLeft className="w-4 h-4 mr-2" />
                 Back to Map
               </Button>
